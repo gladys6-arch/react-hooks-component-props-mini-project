@@ -2,6 +2,7 @@ import React from "react";
 import blogData from "../data/blog";
 import Header from "./Header";
 import About from "./About";
+import Article from "./Article";
 
 
 console.log(blogData);
@@ -13,6 +14,7 @@ function App() {
       the browser as you write your code; and good luck!
       <Header name={blogData.name}/>
       <About about={blogData.about} image={blogData.image}/>
+      <Article/>
     </div>
   );
 }

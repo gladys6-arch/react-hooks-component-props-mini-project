@@ -1,10 +1,10 @@
 import React from "react";
 
-function Header({name= "Underrreacted"}){
+function Header({name}){
  return (
-  <div className="header">
+  <header>
    <h1>{name}</h1>
-  </div>
+  </header>
  )
 }
 

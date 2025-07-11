@@ -1,16 +1,16 @@
 import React from "react";
 
 
-function About({ image="logo",about="A blog about learnig React"}){
+function About({ image="https://via.placeholder.com/215",about}){
   
 
   return(
     
     <aside>
-      <img src={image}/>
+      <img src={image} alt="blog logo"/>
       <p>{about}</p>
     </aside>
-  )
+  );
 
 }
 
